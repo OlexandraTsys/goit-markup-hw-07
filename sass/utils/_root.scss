@@ -1,0 +1,20 @@
+/* Цвет оглавлений текста #212121 */
+/* Цвет основного текста #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* вторичный для footer #FFFFFF; */
+/* цвет body фона #e5e5e5 */
+/* цвет фона team #f5f4fa */
+/* цвет фона hero  #2F303A; */
+:root {
+    --main-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-text: #2196f3;
+    --white: #ffffff;
+    --background-body-section: #e5e5e5;
+    --background-team-section: #f5f4fa;
+    --background-hero-section: #2f303a;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
+    --footer-link-color: rgb(255, 255, 255, 0.1);
+    --timing-fn: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }

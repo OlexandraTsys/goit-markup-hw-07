@@ -1,0 +1,130 @@
+.header-page {
+  border-bottom: 1px solid #ececec;
+  background-color: var(--white);
+}
+
+.header.container {
+  display: flex;
+  align-items: center;
+}
+
+/* logo */
+.logo-name {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.first-logo-name {
+  color: var(--accent-text);
+}
+.second-logo-name {
+  color: var(--main-text-color);
+}
+/* nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav.list {
+  display: flex;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--main-text-color);
+  transition: color color var(--timing-fn);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text);
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact {
+  display: flex;
+
+  margin-left: auto;
+
+  color: var(--title-text-color);
+}
+
+.contact-icon {
+  fill: currentColor;
+}
+
+.contact-case:not(:last-child) {
+  margin-right: 30px;
+}
+
+.contact.link {
+  align-items: center;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: color var(--timing-fn);
+}
+
+.contact-icon {
+  margin-right: 10px;
+}
+
+.contact.link:hover,
+.contact.link:focus {
+  color: var(--accent-text);
+
+  transition: color var(--timing-fn);
+}
+
+.contact.link:hover .contact-icon,
+.contact.link:focus .contact-icon {
+  fill: var(--accent-text);
+}
+
+.contact-case {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav.list {
+  padding-left: 0;
+}
+.site-nav.list,
+.contact.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link.current {
+  color: var(--accent-text);
+  position: relative;
+}
+
+.link.current::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-text);
+  border-radius: 2px;
+}

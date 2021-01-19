@@ -1,0 +1,44 @@
+.section.clients {
+  padding-top: 94px;
+}
+
+.clients.list {
+  display: flex;
+
+  padding: 0;
+  margin: 0;
+}
+
+.clients.item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-list.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  width: 170px;
+  height: 90px;
+  margin: 0;
+  transition: border-color var(--timing-fn);
+}
+
+.clients-list.link:hover,
+.clients-list.link:focus {
+  border-color: var(--accent-text);
+  transition: border-color var(--timing-fn);
+}
+.clients-logo {
+  fill: #afb1b8;
+  transition: fill var(--timing-fn);
+  
+}
+.clients-list.link:hover .clients-logo,
+.clients-list.link:focus .clients-logo {
+  fill: var(--accent-text);
+  transition: fill var(--timing-fn);
+}

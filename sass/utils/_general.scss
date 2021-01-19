@@ -1,0 +1,43 @@
+body {
+    background-color: var(--background-priority-section);
+    color: var(--main-text-color);
+  
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+  
+    transition: color var(--timing-fn);
+  }
+  
+  .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+  
+    color: var(--main-text-color);
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+  }
+  .section {
+    padding-bottom: 94px;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+  }
+  
+  img {
+    display: block;
+  }

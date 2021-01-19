@@ -1,0 +1,144 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--background-hero-section);
+}
+
+.footer-page.container {
+  display: flex;
+  align-items: baseline;
+}
+
+.address-container > .logo-name {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.third-logo-name {
+  color: #ffffff;
+}
+
+.address-container {
+  margin-right: 70px;
+}
+
+.address {
+  color: var(--white);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address > .list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.address.list > .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-contact.item {
+  display: block;
+}
+
+.address.list .link.street {
+  color: var(--white);
+}
+
+.address.list .link {
+  color: var(--footer-link-color);
+}
+
+.transition {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  text-transform: uppercase;
+  color: var(--white);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.join {
+  margin-right: 93px;
+}
+
+.join .social-list.list {
+  margin-bottom: 0;
+}
+
+.footer-social-list.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--footer-link-color);
+  border-radius: 50%;
+
+  width: 44px;
+  height: 44px;
+
+  transition: background-color var(--timing-fn);
+}
+
+.footer-social-list.link:focus,
+.footer-social-list.link:hover {
+  background-color: var(--accent-text);
+
+ transition: background-color var(--timing-fn);
+}
+
+.footer-social-list-icon {
+  fill: var(--white);
+}
+
+.subscribe-box {
+  display: flex;
+  align-items: flex-end;
+}
+
+.subscribe {
+  margin-right: 12px;
+}
+
+.subscribe-email {
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--background-hero-section);
+}
+
+.subscribe-email::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-email:focus {
+  outline: none;
+}
+
+.icon-send {
+  fill: currentColor;
+}
+
+.subscribe-box .modal-form-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 28px;
+}
