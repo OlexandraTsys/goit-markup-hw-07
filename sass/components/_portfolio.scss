@@ -20,11 +20,11 @@
     border: 0 solid transparent;
     padding: 6px 22px;
     
-    font-family: Roboto;
+    font-family: var($main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    letter-spacing: 0.03em;
+    letter-spacing: var($main-letter-spacing);
     transition: background-color var(--timing-fn);
   }
   

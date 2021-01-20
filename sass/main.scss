@@ -1,3 +1,5 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
 @import "./components/header-page";
 @import "./components/hero";
 @import "./components/priority";
@@ -9,5 +11,3 @@
 @import "./components/modal";
 @import "./utils/modal-form-btn";
 @import "./utils/general";
-@import "./utils/root";
-@import "./utils/visually-hidden";

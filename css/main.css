@@ -1,4 +1,38 @@
 @charset "UTF-8";
+/* Цвет оглавлений текста #212121 */
+/* Цвет основного текста #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* вторичный для footer #FFFFFF; */
+/* цвет body фона #e5e5e5 */
+/* цвет фона team #f5f4fa */
+/* цвет фона hero  #2F303A; */
+:root {
+  --main-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-text: #2196f3;
+  --white: #ffffff;
+  --background-body-section: #e5e5e5;
+  --background-team-section: #f5f4fa;
+  --background-hero-section: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --footer-link-color: rgb(255, 255, 255, 0.1);
+  --timing-fn: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .header-page {
   border-bottom: 1px solid #ececec;
   background-color: var(--white);
@@ -14,7 +48,7 @@
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
-  font-family: Raleway, sans-serif;
+  font-family: var(Raleway);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -46,7 +80,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--main-text-color);
-  transition: color color var(--timing-fn);
+  transition: color var(--timing-fn);
 }
 
 .site-nav .link:hover,
@@ -163,7 +197,7 @@
   min-width: 200px;
   color: var(--white);
   background-color: var(--accent-text);
-  font-family: Roboto, sans-serif;
+  font-family: var(Roboto, sans-serif);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -424,7 +458,7 @@
 }
 
 .address.list .link {
-  color: var(--footer-link-color);
+  color: var(--white);
 }
 
 .transition {
@@ -683,7 +717,7 @@
   min-width: 200px;
   color: var(--white);
   background-color: var(--accent-text);
-  font-family: Roboto, sans-serif;
+  font-family: var(Roboto, sans-serif);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -694,8 +728,8 @@
 body {
   background-color: var(--background-priority-section);
   color: var(--main-text-color);
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
+  font-family: var(Roboto, sans-serif);
+  letter-spacing: var(0.03em);
 }
 
 .list {
@@ -731,39 +765,5 @@ body {
 
 img {
   display: block;
-}
-
-/* Цвет оглавлений текста #212121 */
-/* Цвет основного текста #757575 */
-/* акцент #2196F3 */
-/* белый #FFFFFF */
-/* вторичный для footer #FFFFFF; */
-/* цвет body фона #e5e5e5 */
-/* цвет фона team #f5f4fa */
-/* цвет фона hero  #2F303A; */
-:root {
-  --main-text-color: #212121;
-  --title-text-color: #757575;
-  --accent-text: #2196f3;
-  --white: #ffffff;
-  --background-body-section: #e5e5e5;
-  --background-team-section: #f5f4fa;
-  --background-hero-section: #2f303a;
-  --footer-link-color: rgba(255, 255, 255, 0.6);
-  --footer-link-color: rgb(255, 255, 255, 0.1);
-  --timing-fn: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */
