@@ -16,7 +16,7 @@
   --background-team-section: #f5f4fa;
   --background-hero-section: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
-  --footer-link-color: rgb(255, 255, 255, 0.1);
+  --footer-background-color: rgb(255, 255, 255, 0.1);
   --timing-fn: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -458,7 +458,7 @@
 }
 
 .address.list .link {
-  color: var(--white);
+  color: var(--footer-link-color);
 }
 
 .transition {
@@ -483,7 +483,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--footer-link-color);
+  background-color: var(--footer-background-color);
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -523,7 +523,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-link-color);
 }
 
 .subscribe-email:focus {
